@@ -18,5 +18,10 @@
     "repository":  "AICP/vendor_samsung_i9100",
     "target_path": "vendor/samsung/i9100",
     "branch":      "kitkat"
+  },
+  {
+    "repository":  "AICP/vendor_samsung_galaxys2-common",
+    "target_path": "vendor/samsung/galaxys2-common",
+    "branch":      "kitkat"
   }
 ]

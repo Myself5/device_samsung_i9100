@@ -15,7 +15,7 @@
         "branch":      "cm-11.0"
     },
     {
-        "repository": "AOKP/vendor_samsung_i9100",
+        "repository": "AICP/vendor_samsung_i9100",
         "target_path": "vendor/samsung/i9100",
         "branch":      "kitkat"
     }

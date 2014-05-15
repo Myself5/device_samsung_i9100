@@ -1,8 +1,8 @@
 [
   {
-    "repository":  "CyanogenMod/android_device_samsung_galaxys2-common",
+    "repository":  "AICP/device_samsung_galaxys2-common",
     "target_path": "device/samsung/galaxys2-common",
-    "branch":      "cm-11.0"
+    "branch":      "kitkat"
   },
   {
     "repository":  "CyanogenMod/android_kernel_samsung_smdk4412",

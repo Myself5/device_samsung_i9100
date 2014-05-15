@@ -10,15 +10,10 @@
         "branch":      "cm-11.0"
     },
     {
-        "repository": "CyanogenMod/android_hardware_samsung",
-        "target_path": "hardware/samsung"
-        "branch":      "cm-11.0"
-    },
-    {
         "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode"
         "branch":      "cm-11.0"
-    }
+    },
     {
         "repository": "AOKP/vendor_samsung_i9100",
         "target_path": "vendor/samsung/i9100",

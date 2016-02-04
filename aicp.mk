@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/aicp/configs/gsm.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := GT-I9100
 
@@ -25,7 +22,7 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/configs/common.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)

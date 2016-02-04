@@ -23,12 +23,15 @@ LOCAL_PATH := device/samsung/i9100
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # This device is hdpi.
-PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_LOCALES += hdpi
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
+
+# Netmgr dependency on libstlport
+PRODUCT_PACKAGES +=  libstlport
 
 # Sensors
 PRODUCT_PACKAGES += \

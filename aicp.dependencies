@@ -25,7 +25,7 @@
     "branch":      "mm6.0"
   },
   {
-    "repository":  "CyanogenMod/android_packages_SamsungServiceMode",
+    "repository":  "CyanogenMod/android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
     "branch":      "cm-13.0"
   }

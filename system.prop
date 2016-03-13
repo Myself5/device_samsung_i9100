@@ -7,3 +7,11 @@ rild.libargs=-d /dev/ttyS0
 
 # By default, primary storage is physical
 ro.vold.primary_physical=1
+
+# I9100 Hardware Info
+ro.device.chipset=Exynos 4210 Dual
+ro.device.cpu=Dual-core 1.2 GHz Cortex-A9
+ro.device.gpu=Mali-400MP4
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2.0 MP
+ro.device.screen_res=480x800

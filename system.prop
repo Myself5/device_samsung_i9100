@@ -18,6 +18,7 @@ ro.device.screen_res=480x800
 
 # ART
 dalvik.vm.dex2oat-swap=false
+dalvik.vm.dex2oat-Xmx=256m
 
 # GSM Signal
 ro.telephony.ril.config=datacallapn,signalstrength
